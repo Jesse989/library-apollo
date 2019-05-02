@@ -36,7 +36,7 @@ const server = new ApolloServer({
 
 if (process.env.NODE_ENV !== 'test')
   server
-    .listen({ port: 4000 })
+    .listen({ port: process.env.PORT || 4000 })
     .then(({ url }) => console.log(`   app running at ${url}`));
 
 module.exports = {
