@@ -16,7 +16,7 @@
     "apollo-link-http": "^1.5.14",
     "apollo-server": "^2.4.8",
     "apollo-server-testing": "^2.4.8",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "dotenv": "^7.0.0",
     "faker": "^4.1.0",
     "graphql": "^14.2.1",
